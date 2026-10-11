@@ -4,8 +4,8 @@ import { ClientLayout } from "./client-layout";
 import { getRestaurantSettings } from "@/lib/queries";
 
 export const metadata: Metadata = {
-  title: "The Emerald Table — Restaurant Menu",
-  description: "An elegant, responsive restaurant menu.",
+  title: "SSK Khau Galli",
+  description: "An elegant, responsive menu.",
 };
 
 export const dynamic = "force-dynamic";

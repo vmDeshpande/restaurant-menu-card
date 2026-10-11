@@ -168,7 +168,7 @@ export function createDocuments(sqlite: Database.Database): Record<string, Docum
 
   const settings: Document[] = settingsRows.map((row) => ({
     _id: RESTAURANT_SETTINGS_ID,
-    name: optionalString(row, "name") || "The Emerald Table",
+    name: optionalString(row, "name") || "Name",
     logo: optionalString(row, "logo"),
     heroImage: optionalString(row, "hero_image"),
     description: optionalString(row, "description"),

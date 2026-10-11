@@ -21,7 +21,7 @@ export function HomeClient({
   return (
     <main>
       <Hero
-        name={settings?.name ?? "The Emerald Table"}
+        name={settings?.name ?? "Name"}
         description={settings?.description ?? "A thoughtful menu, shaped by the season and served with intention."}
       />
       <section id="menu" className="chalkboard-menu mx-auto max-w-6xl scroll-mt-24 px-5 py-16 sm:px-8 sm:py-24">

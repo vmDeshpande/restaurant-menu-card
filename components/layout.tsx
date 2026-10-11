@@ -23,7 +23,7 @@ export function Footer({ settings, dark = false }: { settings: RestaurantSetting
   if (settings?.twitterUrl && isSafeSocialUrl("twitter", settings.twitterUrl)) {
     socials.push({ label: "X / Twitter", href: settings.twitterUrl, Icon: Twitter });
   }
-  const restaurantName = settings?.name ?? "The Emerald Table";
+  const restaurantName = settings?.name ?? "Name";
   return (
     <footer className={`mt-20 border-t ${dark ? "border-white/10 bg-[#1b1b1b] text-[#f5f3ee]" : "border-cream-200 bg-charcoal-900 text-cream-200"}`}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">

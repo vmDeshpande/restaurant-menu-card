@@ -13,7 +13,7 @@ export function SiteShell({ children, settings }: { children: ReactNode; setting
 
   return (
     <div className="chalkboard-site">
-      <Navbar name={settings?.name ?? "The Emerald Table"} dark />
+      <Navbar name={settings?.name ?? "Name"} dark />
       {children}
       <Footer settings={settings} dark />
     </div>
