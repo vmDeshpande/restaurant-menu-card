@@ -64,9 +64,7 @@ export function Footer({ settings, dark = false }: { settings: RestaurantSetting
           )}
         </div>
         <div className={`mt-10 border-t pt-6 text-center text-xs ${dark ? "border-white/10 text-white/45" : "border-white/10 text-cream-500"}`}>
-          {dark
-            ? `© ${new Date().getFullYear()} ${restaurantName}. All rights reserved.`
-            : <>Made with ♡ by <Link href="https://vmDeshpande.github.io/vedant-deshpande-portfolio" className="text-forest-600 hover:text-white">Vedant Deshpande</Link></>}
+          Made with ♡ by <Link href="https://vmDeshpande.github.io/vedant-deshpande-portfolio" className="text-forest-600 hover:text-white">Vedant Deshpande</Link>
         </div>
       </div>
     </footer>
